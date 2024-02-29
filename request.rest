@@ -1,0 +1,9 @@
+http://localhost:5000/upload
+content-type: multipart/form-data; boundary=MfnBoundry
+
+--MfnBoundry
+Content-Disposition: form-data; name="files"; filename="contoh.txt"
+Content-Type: text/plain
+
+< ./contoh.txt
+--MfnBoundry--
